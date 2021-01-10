@@ -9,10 +9,7 @@ class AccountDB
 public:
 	void addInternAccount();
 	void addExternAccount();
-	void removeEmployee();
-	std::string printAll();
-	std::string printInternEmpployee();
-	std::string printExternEmployee();
+
 
 private:
 	std::vector<Employee*> employeeAccount;
