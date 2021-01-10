@@ -12,14 +12,8 @@ void showMenu()
 {
 	std::cout << "     1- Add intern employee:" << std::endl;
 	std::cout << "     2- Add extern employee:" << std::endl;
-	std::cout << "     3- Delete employee:" << std::endl;
-	std::cout << "     4- Print all employees:" << std::endl;
-	std::cout << "     5- Print intern employee:" << std::endl;
-	std::cout << "     6- Print extern employee:" << std::endl;
-	std::cout << "     7- Pay intern employee:" << std::endl;
-	std::cout << "     8- Pay extern employee:" << std::endl;
-	std::cout << "     9- Pay intern bonus:" << std::endl;
-	std::cout << "     10- Exit:" << std::endl;
+
+	std::cout << "     3- Exit:" << std::endl;
 }
 
 int main()
@@ -61,13 +55,13 @@ int main()
 
 	 
 
-	 case 10:
+	 case 3:
 		 system("cls");
 		 break;
 	 default:
 		std::cout << "Invalid input" ;
 	 }
- } while (choice != 9);
+ } while (choice != 3);
  
  
 
